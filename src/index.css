@@ -1,0 +1,50 @@
+@import url('https://cdn-uicons.flaticon.com/2.0.0/uicons-brands/css/uicons-brands.css');
+@import url('https://cdn-uicons.flaticon.com/2.0.0/uicons-brands/css/uicons-brands.css');
+@import url('https://cdn-uicons.flaticon.com/2.0.0/uicons-brands/css/uicons-brands.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+/* #foote/r {
+  bg
+} */
+::-webkit-scrollbar {
+  width: 0;
+}
+video {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  bottom: 10vh;
+  
+}
+.line {
+  height: 70%;
+  width: 0;
+  margin: 0 auto;
+  border-left: 1px solid black;
+}
+.page-no {
+  font-size: 18px;
+  font-weight: 700;
+}
+i {
+  font-size: 20px;
+}
+#city {
+  background-image: linear-gradient(to bottom, navy , rgb(165, 211, 229), white);
+  
+}
+
+#news-img {
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
